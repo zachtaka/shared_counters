@@ -9,7 +9,6 @@ reg [granularity-1:0] data_out_incremented;
 enum { idle, reset, increment, load } command;
 
 
-
 //command decode
 // 00-> reset
 // 01-> increment
