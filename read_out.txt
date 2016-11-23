@@ -1,0 +1,3 @@
+Cycle counter=  10019  rdata_out=0000  last=0
+Cycle counter=  10020  rdata_out=0001  last=0
+Cycle counter=  10021  rdata_out=0111  last=1

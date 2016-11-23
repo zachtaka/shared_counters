@@ -1,0 +1,12 @@
+efficient subcounter use:
+	Na uparxei se kathe slave ena eidos id monitor to opoio kathe fora pou ginetai deallocation na upologizei tin nea timi tou id (an auto ginetai)
+
+	provlimata sxetika me auto:
+		pws tha kseroun to size tou counter pou ginetai deallocate 
+		pws tha ananewnw egw to mask se kathe deallocate symfwna me ta nea id
+
+	gia to update tis mask: maskref, shift tin mask >>size kai meta or me tin ref mask i kati tetoio
+	alla o slave tha prepei na exei kati san id monitor opote otan to id einai megalytero apo auto tou deallocate na kanei id-size 
+
+
+stroba signal gia ta load data wste na dinetai i dynatotita na alazei sygkekrimena bytes stous subcounter tou enas counter
